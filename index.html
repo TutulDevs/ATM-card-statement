@@ -5,27 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Loop 1 - Step 9</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <!--<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">-->
+  <link rel="stylesheet" href="css/main.css" />
 </head>
 <body>
     <main class="card">
-        <section class="wallet">
-          <div class="wallet-header">
-            <h1>My Wallets</h1>
-            <img src="img/plus.svg" alt="plus sign">
+        <section class="card__wallet">
+          <div class="card__wallet--header">
+			<h1>My Wallets</h1>
+			<a href="#" class="add">
+				<img src="img/plus.svg" alt="plus sign">
+			</a>
           </div><!--  //wallet-header  -->
 
-          <ul class="wallet-content">
-            <li><a href="#">
-              <img src="img/visa.svg" alt="visa card">
-              <p class="password">
-                *** *** *** 2562
-              </p>
-              <p class="validity">
-                Valid thru: 12/17
-              </p>
-            </a></li>
+          <ul class="card__wallet--content">
+            <li>
+				<a href="#">
+					<img src="img/visa.svg" alt="visa card">
+					<p class="password">
+						*** *** *** 2562
+					</p>
+					<p class="validity">
+						Valid thru: 12/17
+					</p>
+				</a>
+			</li>
             
             <li><a href="#" class="active">
               <img src="img/mastercard.svg" alt="master card">
@@ -49,13 +53,13 @@
           </ul><!--  //wallet-content  -->
         </section><!--  //wallet  -->
 
-        <section class="balance">
-          <div class="balance-header">
+        <section class="card__balance">
+          <div class="card__balance--header">
             <h1>Current Balance</h1>
             <h1 class="total">$729.<sup>00</sup></h1>
           </div><!--  //balance-header  -->
 
-          <div class="balance-box minus">
+          <div class="card__balance--box minus">
             <img src="img/minus.svg" alt="minus sign">
 
             <div class="item">
@@ -69,7 +73,7 @@
               $650.<sup>00</sup>
             </h2>
           </div><!--  //balance-box  -->
-          <div class="balance-box plus">
+          <div class="card__balance--box plus">
             <img src="img/plus.svg" alt="minus plus">
 
             <div class="item">
@@ -83,7 +87,7 @@
               $900.<sup>00</sup>
             </h2>
           </div><!--  //balance-box  -->
-          <div class="balance-box minus">
+          <div class="card__balance--box minus">
             <img src="img/minus.svg" alt="minus sign">
 
             <div class="item">
@@ -97,7 +101,7 @@
               $84.<sup>90</sup>
             </h2>
           </div><!--  //balance-box  -->
-          <div class="balance-box minus">
+          <div class="card__balance--box minus">
             <img src="img/minus.svg" alt="minus sign">
 
             <div class="item">
@@ -111,7 +115,7 @@
               $40.<sup>00</sup>
             </h2>
           </div><!--  //balance-box  -->
-          <div class="balance-box minus">
+          <div class="card__balance--box minus">
             <img src="img/minus.svg" alt="minus sign">
 
             <div class="item">
@@ -125,7 +129,7 @@
               $10.<sup>50</sup>
             </h2>
           </div><!--  //balance-box  -->
-          <div class="balance-box minus">
+          <div class="card__balance--box minus">
             <img src="img/minus.svg" alt="minus sign">
 
             <div class="item">
