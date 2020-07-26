@@ -14,7 +14,7 @@ $balance-bg: #FFFFFF;
 
 html {
     font-size: 10px;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
 }
 
@@ -52,8 +52,6 @@ img {width: 70px;}
     height: 50rem;
     margin: 5rem auto;
     background: #fff;
-    //overflow: hidden;
-    //overflow-y: scroll;
 
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -110,7 +108,7 @@ img {width: 70px;}
         padding: 5rem 3rem 2rem 3rem;
         background: $balance-bg;
         height: 100%;
-        overflow-y: scroll;
+        overflow-y: auto;
 
         &--header {
             @include headers();

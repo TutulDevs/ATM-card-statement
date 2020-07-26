@@ -7,7 +7,7 @@
 
 html {
   font-size: 10px;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.6;
 }
 
@@ -111,7 +111,7 @@ img {
   padding: 5rem 3rem 2rem 3rem;
   background: #FFFFFF;
   height: 100%;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .card__balance--header {
